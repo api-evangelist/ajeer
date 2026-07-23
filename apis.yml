@@ -1,7 +1,23 @@
 aid: ajeer
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ajeer.png
 name: Ajeer
-description: Ajeer is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Ajeer (iajeer.com) is a Saudi Arabian on-demand services platform for home and facility maintenance
+  and operations (خدمات الصيانة والتشغيل). Through its mobile application customers request residential
+  maintenance, general labor, installation, plumbing, electrical, and air-conditioning services, connecting
+  them with vetted service providers. Ajeer is a portfolio company of 500 Global, surfaced into the API
+  Evangelist network as a company profile. No public API, developer portal, or machine-readable specification
+  was found during enrichment; this profile captures the company's public web surface and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/ajeer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +30,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Maintenance
+- Operations
+- Facilities Management
+- Home Services
+- On-Demand Services
+- Saudi Arabia
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,14 @@ maintainers:
 common:
 - type: Website
   url: https://iajeer.com
+- type: Blog
+  url: https://www.iajeer.com/blog
+- type: PrivacyPolicy
+  url: https://www.iajeer.com/privacy-policy
+- type: DomainSecurity
+  url: security/ajeer-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
